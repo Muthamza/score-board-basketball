@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="clock-container">
+            <div>
+                <button class="heading" id="home-foul-btn" onclick="homeFoul()">FOUL</button>
+                <p class="foul-times" id="home-foul-el">0</p>
+            </div>
+            <div>
+                <h2 class="score">24</h2>
+                <p class="shot-clock">SHOT CLOCK</p>
+            </div>
+            <div>
+                <button class="heading" id="guest-foul-btn" onclick="guestFoul()">FOUL</button>
+                <p class="foul-times" id="guest-foul-el">0</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column">
+                <h3 class="heading">HOME</h3>
+                <h2 id="home-score">0</h2>
+                <div class="btn-s">
+                    <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+                    <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+ 2</button>
+                    <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+ 3</button>
+                </div>
+            </div>
+            <div class="column">
+                <p class="period">PERIOD</p>
+                <h2 class="score" id="period-count">0</h2>
+                <button id="period-count-btn" onclick="increasePeriodBtn()">Period</button>
+            </div>
+            <div class="column">
+                <h3 class="heading">GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <div class="btn-s">
+                    <button id="guest-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+                    <button id="guest-score-btn-2" onclick="increaseGuestScoreTwo()">+ 2</button>
+                    <button id="guest-score-btn-3" onclick="increaseGuestScoreThree()">+ 3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: auto;
+    text-align: center;
+    font-family: Cursed Timer ULiL, sans-seriff;
+}
+
+.clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foul-times{
+    background: black;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL, sans-seriff;
+    font-size: 40px;
+    padding-top: 7px;
+    margin: 0 30px; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score{
+    background: black;
+    color: #F94F6D;
+    font-size: 90px;
+    border-radius: 5px;
+    margin: 20px 0 20px;
+    padding-top: 15px;
+}
+
+#home-score{
+    background: black;
+    color: #F94F6D;
+    font-size: 90px;
+    border-radius: 5px;
+    margin: 20px 0 20px;
+    padding-top: 15px;
+}
+
+#guest-score{
+    background: black;
+    color: #F94F6D;
+    font-size: 90px;
+    border-radius: 5px;
+    margin: 20px 0 20px;
+    padding-top: 15px;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+    margin: 10px 10PX;
+}
+
+.shot-clock{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+}
+
+.period{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+}
+
+button{
+    background: #1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    border-radius: 5px;
+    border: 2px solid #9AABD8; 
+    font-size: 18px;
+    padding: 5px;   
+}
